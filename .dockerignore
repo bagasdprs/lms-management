@@ -1,0 +1,11 @@
+# File-file ini nggak perlu ikut ke dalam image, bikin build lebih cepat
+# dan lebih aman (secret nggak ke-bundle nggak sengaja)
+node_modules
+.next
+.git
+.github
+*.md
+.env*
+!.env.example
+Dockerfile
+.dockerignore
